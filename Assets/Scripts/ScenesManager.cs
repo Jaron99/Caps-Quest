@@ -17,5 +17,4 @@ public class ScenesManager : MonoBehaviour
     {
         SceneManager.LoadScene("ArventisCastle");
     }
-
 }
