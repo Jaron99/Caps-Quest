@@ -4,7 +4,7 @@ using UnityEngine;
 public class ScenesManager : MonoBehaviour
 {
     
-    public enum escena {Forest,ArventisCity,ArventisCastle};
+    public enum escena {Forest,ArventisCity,ArventisCastle,Outro};
     public escena nombreescena;
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -20,11 +20,11 @@ public class ScenesManager : MonoBehaviour
 
     public void EscenaCuidad()
     {
-        SceneManager.LoadScene("Arventis City");
+        SceneManager.LoadScene("ArventisCity");
     }
     
     public void EscenaCastillo()
     {
-        SceneManager.LoadScene("Arventis Castle");
+        SceneManager.LoadScene("ArventisCastle");
     }
 }
