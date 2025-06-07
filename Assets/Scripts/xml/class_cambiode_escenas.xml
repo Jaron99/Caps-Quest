@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="es">
+  <compounddef id="class_cambiode_escenas" kind="class" language="C#" prot="public">
+    <compoundname>CambiodeEscenas</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_cambiode_escenas_1a93b4e5d33a141acf5ba3ea259ddb3bb4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CambiodeEscenas.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>CambiodeEscenas.Start</qualifiedname>
+        <briefdescription>
+<para>Método que se llama al iniciar el script. Inicia la corrutina que espera un tiempo antes de cambiar de escena. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/CambioIntro.cs" line="14" column="10" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/CambioIntro.cs" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cambiode_escenas_1a491bb1b227072949869dbbe51877e97c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator CambiodeEscenas.Intro</definition>
+        <argsstring>()</argsstring>
+        <name>Intro</name>
+        <qualifiedname>CambiodeEscenas.Intro</qualifiedname>
+        <briefdescription>
+<para>Corrutina que espera un tiempo determinado antes de cargar la escena del menú principal. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Retorna un enumerador que permite la espera asincrónica.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/CambioIntro.cs" line="23" column="17" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/CambioIntro.cs" bodystart="23" bodyend="27"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Controla el cambio de escenas en Unity después de una introducción. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CambiodeEscenas</label>
+        <link refid="class_cambiode_escenas"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CambiodeEscenas</label>
+        <link refid="class_cambiode_escenas"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/CambioIntro.cs" line="8" column="7" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/CambioIntro.cs" bodystart="9" bodyend="28"/>
+    <listofallmembers>
+      <member refid="class_cambiode_escenas_1a491bb1b227072949869dbbe51877e97c" prot="private" virt="non-virtual"><scope>CambiodeEscenas</scope><name>Intro</name></member>
+      <member refid="class_cambiode_escenas_1a93b4e5d33a141acf5ba3ea259ddb3bb4" prot="private" virt="non-virtual"><scope>CambiodeEscenas</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="es">
+  <compounddef id="class_n_p_c" kind="class" language="C#" prot="public">
+    <compoundname>NPC</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_n_p_c_1a8dd3fdf6a75e7cf833d49b85802cce51" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>TipoEjercicio</name>
+        <qualifiedname>NPC.TipoEjercicio</qualifiedname>
+        <enumvalue id="class_n_p_c_1a8dd3fdf6a75e7cf833d49b85802cce51acbf058c7ffd2ad16dfc1db4bddd07371" prot="public">
+          <name>VyF</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_n_p_c_1a8dd3fdf6a75e7cf833d49b85802cce51a6e1f859630fbe5c92400018fb557e0a9" prot="public">
+          <name>Seleccion</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_n_p_c_1a8dd3fdf6a75e7cf833d49b85802cce51a8d7c2bd0727190e37da6f27a86205b2b" prot="public">
+          <name>Completar</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Tipos de ejercicios que el <ref refid="class_n_p_c" kindref="compound">NPC</ref> puede activar. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/NPC.cs" line="12" column="11" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/NPC.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_n_p_c_1aa25bb9fde7fff6ba20594317ed9560a2" prot="public" static="no" mutable="no">
+        <type><ref refid="class_n_p_c_1a8dd3fdf6a75e7cf833d49b85802cce51" kindref="member">TipoEjercicio</ref></type>
+        <definition>TipoEjercicio NPC.tipo</definition>
+        <argsstring></argsstring>
+        <name>tipo</name>
+        <qualifiedname>NPC.tipo</qualifiedname>
+        <briefdescription>
+<para>Tipo de ejercicio asignado a este <ref refid="class_n_p_c" kindref="compound">NPC</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/NPC.cs" line="17" column="26" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/NPC.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_p_c_1a98f42b71a2ead624d897ee41c5d67cfb" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject NPC.panelvyf</definition>
+        <argsstring></argsstring>
+        <name>panelvyf</name>
+        <qualifiedname>NPC.panelvyf</qualifiedname>
+        <briefdescription>
+<para>Panel para el ejercicio de Verdadero y Falso. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/NPC.cs" line="22" column="23" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/NPC.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_p_c_1ab1a037a822a5046016b1429d6e7f5c92" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject NPC.panelseleccion</definition>
+        <argsstring></argsstring>
+        <name>panelseleccion</name>
+        <qualifiedname>NPC.panelseleccion</qualifiedname>
+        <briefdescription>
+<para>Panel para el ejercicio de Selección. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/NPC.cs" line="27" column="23" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/NPC.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_p_c_1aa33f00d5202abeb0689902e2496c733e" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject NPC.panelcompletar</definition>
+        <argsstring></argsstring>
+        <name>panelcompletar</name>
+        <qualifiedname>NPC.panelcompletar</qualifiedname>
+        <briefdescription>
+<para>Panel para el ejercicio de Completar. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/NPC.cs" line="32" column="23" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/NPC.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_n_p_c_1a540388d0a7a6328dcba6b691d219a969" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool NPC.activado</definition>
+        <argsstring></argsstring>
+        <name>activado</name>
+        <qualifiedname>NPC.activado</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>Bandera que indica si el <ref refid="class_n_p_c" kindref="compound">NPC</ref> ya ha sido activado. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/NPC.cs" line="37" column="18" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/NPC.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_p_c_1a5b79779c1e3f3f2d05d85febd390cfac" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject NPC.jugador</definition>
+        <argsstring></argsstring>
+        <name>jugador</name>
+        <qualifiedname>NPC.jugador</qualifiedname>
+        <briefdescription>
+<para>Referencia al jugador que ha activado el <ref refid="class_n_p_c" kindref="compound">NPC</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/NPC.cs" line="42" column="24" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/NPC.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_n_p_c_1a6e0beba82b5fe7c2b22a8edb2511e82d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NPC.OnTriggerEnter2D</definition>
+        <argsstring>(Collider2D other)</argsstring>
+        <name>OnTriggerEnter2D</name>
+        <qualifiedname>NPC.OnTriggerEnter2D</qualifiedname>
+        <param>
+          <type>Collider2D</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Se ejecuta cuando otro collider entra en la zona de colisión del <ref refid="class_n_p_c" kindref="compound">NPC</ref>. Si el objeto es el jugador y aún no se ha activado, se muestra el panel correspondiente y se desactiva el movimiento del jugador. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>other</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Collider del objeto que entra en contacto con el <ref refid="class_n_p_c" kindref="compound">NPC</ref>.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/NPC.cs" line="49" column="10" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/NPC.cs" bodystart="49" bodyend="73"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_n_p_c_1a375667ed04cbbc8dc51e4baf9b65eebc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NPC.CerrarPanel</definition>
+        <argsstring>()</argsstring>
+        <name>CerrarPanel</name>
+        <qualifiedname>NPC.CerrarPanel</qualifiedname>
+        <briefdescription>
+<para>Cierra el panel activo y reactiva el movimiento del jugador. Este método puede ser llamado por botones en los paneles. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/NPC.cs" line="79" column="17" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/NPC.cs" bodystart="79" bodyend="82"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Controlador de <ref refid="class_n_p_c" kindref="compound">NPC</ref> que activa diferentes tipos de paneles de ejercicio al colisionar con el jugador. También desactiva el movimiento del jugador mientras un panel está activo. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>NPC</label>
+        <link refid="class_n_p_c"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>NPC</label>
+        <link refid="class_n_p_c"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/NPC.cs" line="7" column="7" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/NPC.cs" bodystart="8" bodyend="83"/>
+    <listofallmembers>
+      <member refid="class_n_p_c_1a540388d0a7a6328dcba6b691d219a969" prot="private" virt="non-virtual"><scope>NPC</scope><name>activado</name></member>
+      <member refid="class_n_p_c_1a375667ed04cbbc8dc51e4baf9b65eebc" prot="public" virt="non-virtual"><scope>NPC</scope><name>CerrarPanel</name></member>
+      <member refid="class_n_p_c_1a5b79779c1e3f3f2d05d85febd390cfac" prot="private" virt="non-virtual"><scope>NPC</scope><name>jugador</name></member>
+      <member refid="class_n_p_c_1a6e0beba82b5fe7c2b22a8edb2511e82d" prot="private" virt="non-virtual"><scope>NPC</scope><name>OnTriggerEnter2D</name></member>
+      <member refid="class_n_p_c_1aa33f00d5202abeb0689902e2496c733e" prot="public" virt="non-virtual"><scope>NPC</scope><name>panelcompletar</name></member>
+      <member refid="class_n_p_c_1ab1a037a822a5046016b1429d6e7f5c92" prot="public" virt="non-virtual"><scope>NPC</scope><name>panelseleccion</name></member>
+      <member refid="class_n_p_c_1a98f42b71a2ead624d897ee41c5d67cfb" prot="public" virt="non-virtual"><scope>NPC</scope><name>panelvyf</name></member>
+      <member refid="class_n_p_c_1aa25bb9fde7fff6ba20594317ed9560a2" prot="public" virt="non-virtual"><scope>NPC</scope><name>tipo</name></member>
+      <member refid="class_n_p_c_1a8dd3fdf6a75e7cf833d49b85802cce51" prot="public" virt="non-virtual"><scope>NPC</scope><name>TipoEjercicio</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="es">
+  <compounddef id="class_apagar_panel" kind="class" language="C#" prot="public">
+    <compoundname>ApagarPanel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_apagar_panel_1a249dd710a80e5d0d3a646dfaeca107a1" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ApagarPanel.delay</definition>
+        <argsstring></argsstring>
+        <name>delay</name>
+        <qualifiedname>ApagarPanel.delay</qualifiedname>
+        <initializer>= 4f</initializer>
+        <briefdescription>
+<para>Tiempo de espera antes de ocultar el panel (en segundos). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/ApagarPanel.cs" line="11" column="19" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/ApagarPanel.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_apagar_panel_1afc2d07e602911f94b6e901a37e2bd1e9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ApagarPanel.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>ApagarPanel.OnEnable</qualifiedname>
+        <briefdescription>
+<para>Método llamado automáticamente cuando el objeto se activa. Inicia una invocación para ocultar el panel después del tiempo especificado. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/ApagarPanel.cs" line="17" column="10" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/ApagarPanel.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_apagar_panel_1aa99dbc136ccba310a8a4d062dfe69a18" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ApagarPanel.HidePanel</definition>
+        <argsstring>()</argsstring>
+        <name>HidePanel</name>
+        <qualifiedname>ApagarPanel.HidePanel</qualifiedname>
+        <briefdescription>
+<para>Oculta el panel desactivando el GameObject asociado. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/ApagarPanel.cs" line="25" column="10" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/ApagarPanel.cs" bodystart="25" bodyend="28"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Clase responsable de desactivar el panel actual después de un retraso determinado. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ApagarPanel</label>
+        <link refid="class_apagar_panel"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ApagarPanel</label>
+        <link refid="class_apagar_panel"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/ApagarPanel.cs" line="6" column="7" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/ApagarPanel.cs" bodystart="7" bodyend="29"/>
+    <listofallmembers>
+      <member refid="class_apagar_panel_1a249dd710a80e5d0d3a646dfaeca107a1" prot="private" virt="non-virtual"><scope>ApagarPanel</scope><name>delay</name></member>
+      <member refid="class_apagar_panel_1aa99dbc136ccba310a8a4d062dfe69a18" prot="private" virt="non-virtual"><scope>ApagarPanel</scope><name>HidePanel</name></member>
+      <member refid="class_apagar_panel_1afc2d07e602911f94b6e901a37e2bd1e9" prot="private" virt="non-virtual"><scope>ApagarPanel</scope><name>OnEnable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

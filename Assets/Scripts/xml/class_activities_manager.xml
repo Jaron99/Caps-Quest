@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="es">
+  <compounddef id="class_activities_manager" kind="class" language="C#" prot="public">
+    <compoundname>ActivitiesManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ActivitiesManager</label>
+        <link refid="class_activities_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ActivitiesManager</label>
+        <link refid="class_activities_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/ActivitiesManager.cs" line="5" column="7" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/ActivitiesManager.cs" bodystart="6" bodyend="8"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="es">
+  <compounddef id="dir_f36bbd1500de7a063dfb7d30cf46cad5" kind="dir">
+    <compoundname>Caps Quest Remake/Caps-Quest/Assets/Scripts</compoundname>
+    <innerfile refid="_activities_manager_8cs">ActivitiesManager.cs</innerfile>
+    <innerfile refid="_apagar_panel_8cs">ApagarPanel.cs</innerfile>
+    <innerfile refid="_cambio_intro_8cs">CambioIntro.cs</innerfile>
+    <innerfile refid="_cambio_outro_8cs">CambioOutro.cs</innerfile>
+    <innerfile refid="_movimiento_8cs">Movimiento.cs</innerfile>
+    <innerfile refid="_n_p_c_8cs">NPC.cs</innerfile>
+    <innerfile refid="_salida_8cs">Salida.cs</innerfile>
+    <innerfile refid="_scenes_manager_8cs">ScenesManager.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/"/>
+  </compounddef>
+</doxygen>

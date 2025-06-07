@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="es">
+  <compounddef id="_scenes_manager_8cs" kind="file" language="C#">
+    <compoundname>ScenesManager.cs</compoundname>
+    <innerclass refid="class_scenes_manager" prot="public">ScenesManager</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">UnityEngine.SceneManagement;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">UnityEngine;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="class_scenes_manager" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_scenes_manager" kindref="compound">ScenesManager</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13" refid="class_scenes_manager_1a7ecceebd595cf3a17755e7d2d79c5dd1a8832e1afed574329256b84993247d8a5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="class_scenes_manager_1a7ecceebd595cf3a17755e7d2d79c5dd1" kindref="member">escena</ref><sp/>{<sp/><ref refid="class_scenes_manager_1a7ecceebd595cf3a17755e7d2d79c5dd1aac12ee4aedb176eb73ce3f6c0d1e9036" kindref="member">Forest</ref>,<sp/><ref refid="class_scenes_manager_1a7ecceebd595cf3a17755e7d2d79c5dd1a5e41938399d34617c91e9b47100e4808" kindref="member">ArventisCity</ref>,<sp/><ref refid="class_scenes_manager_1a7ecceebd595cf3a17755e7d2d79c5dd1a8832e1afed574329256b84993247d8a5" kindref="member">ArventisCastle</ref>,<sp/><ref refid="class_scenes_manager_1a7ecceebd595cf3a17755e7d2d79c5dd1a21e6facb2210089479e2aa9c41762ca0" kindref="member">Outro</ref><sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="class_scenes_manager_1aee4a96e7bf8b8d6514751762e26d9def" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_scenes_manager_1a7ecceebd595cf3a17755e7d2d79c5dd1" kindref="member">escena</ref><sp/><ref refid="class_scenes_manager_1aee4a96e7bf8b8d6514751762e26d9def" kindref="member">nombreescena</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>OnTriggerEnter2D(Collider2D<sp/>other)</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(other.CompareTag(</highlight><highlight class="stringliteral">&quot;Player&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SceneManager.LoadScene(<ref refid="class_scenes_manager_1aee4a96e7bf8b8d6514751762e26d9def" kindref="member">nombreescena</ref>.ToString());</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="class_scenes_manager_1a037c35fa0e35bb11cbc9107633075161" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_scenes_manager_1a037c35fa0e35bb11cbc9107633075161" kindref="member">EscenaBosque</ref>()</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SceneManager.LoadScene(</highlight><highlight class="stringliteral">&quot;Forest&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="class_scenes_manager_1a5480d449eccda5b90cf31622e5251dbb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_scenes_manager_1a5480d449eccda5b90cf31622e5251dbb" kindref="member">EscenaCuidad</ref>()</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SceneManager.LoadScene(</highlight><highlight class="stringliteral">&quot;ArventisCity&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="class_scenes_manager_1acb3180a8d5596c36316c75a00b7b2ec8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_scenes_manager_1acb3180a8d5596c36316c75a00b7b2ec8" kindref="member">EscenaCastillo</ref>()</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SceneManager.LoadScene(</highlight><highlight class="stringliteral">&quot;ArventisCastle&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/ScenesManager.cs"/>
+  </compounddef>
+</doxygen>

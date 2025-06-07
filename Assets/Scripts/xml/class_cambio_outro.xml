@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="es">
+  <compounddef id="class_cambio_outro" kind="class" language="C#" prot="public">
+    <compoundname>CambioOutro</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_cambio_outro_1ae37d0720918f1e3c13ac1544e79797a7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CambioOutro.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>CambioOutro.Start</qualifiedname>
+        <briefdescription>
+<para>Método llamado al iniciar el script. Inicia una corrutina que espera un tiempo determinado antes de cambiar de escena. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/CambioOutro.cs" line="15" column="10" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/CambioOutro.cs" bodystart="15" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cambio_outro_1a1d70009c4d3c3795527913632f68215b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator CambioOutro.Outro</definition>
+        <argsstring>()</argsstring>
+        <name>Outro</name>
+        <qualifiedname>CambioOutro.Outro</qualifiedname>
+        <briefdescription>
+<para>Corrutina que espera 65 segundos antes de cargar la escena del menú principal. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Un enumerador que permite la espera asincrónica.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/CambioOutro.cs" line="24" column="17" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/CambioOutro.cs" bodystart="24" bodyend="28"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Clase que gestiona la transición automática a la escena del menú principal después de que finaliza una secuencia tipo outro o créditos. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CambioOutro</label>
+        <link refid="class_cambio_outro"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CambioOutro</label>
+        <link refid="class_cambio_outro"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/CambioOutro.cs" line="9" column="7" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/CambioOutro.cs" bodystart="10" bodyend="29"/>
+    <listofallmembers>
+      <member refid="class_cambio_outro_1a1d70009c4d3c3795527913632f68215b" prot="private" virt="non-virtual"><scope>CambioOutro</scope><name>Outro</name></member>
+      <member refid="class_cambio_outro_1ae37d0720918f1e3c13ac1544e79797a7" prot="private" virt="non-virtual"><scope>CambioOutro</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

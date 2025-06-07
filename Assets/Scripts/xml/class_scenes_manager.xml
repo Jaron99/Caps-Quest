@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="es">
+  <compounddef id="class_scenes_manager" kind="class" language="C#" prot="public">
+    <compoundname>ScenesManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_scenes_manager_1a7ecceebd595cf3a17755e7d2d79c5dd1" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>escena</name>
+        <qualifiedname>ScenesManager.escena</qualifiedname>
+        <enumvalue id="class_scenes_manager_1a7ecceebd595cf3a17755e7d2d79c5dd1aac12ee4aedb176eb73ce3f6c0d1e9036" prot="public">
+          <name>Forest</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_scenes_manager_1a7ecceebd595cf3a17755e7d2d79c5dd1a5e41938399d34617c91e9b47100e4808" prot="public">
+          <name>ArventisCity</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_scenes_manager_1a7ecceebd595cf3a17755e7d2d79c5dd1a8832e1afed574329256b84993247d8a5" prot="public">
+          <name>ArventisCastle</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_scenes_manager_1a7ecceebd595cf3a17755e7d2d79c5dd1a21e6facb2210089479e2aa9c41762ca0" prot="public">
+          <name>Outro</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Enum que define las escenas disponibles para ser cargadas. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/ScenesManager.cs" line="13" column="11" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/ScenesManager.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_scenes_manager_1aee4a96e7bf8b8d6514751762e26d9def" prot="public" static="no" mutable="no">
+        <type><ref refid="class_scenes_manager_1a7ecceebd595cf3a17755e7d2d79c5dd1" kindref="member">escena</ref></type>
+        <definition>escena ScenesManager.nombreescena</definition>
+        <argsstring></argsstring>
+        <name>nombreescena</name>
+        <qualifiedname>ScenesManager.nombreescena</qualifiedname>
+        <briefdescription>
+<para>Escena seleccionada para ser cargada automáticamente al entrar en el trigger. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/ScenesManager.cs" line="18" column="19" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/ScenesManager.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_scenes_manager_1a9af638e0d75b67149575e77ed9468ba2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.OnTriggerEnter2D</definition>
+        <argsstring>(Collider2D other)</argsstring>
+        <name>OnTriggerEnter2D</name>
+        <qualifiedname>ScenesManager.OnTriggerEnter2D</qualifiedname>
+        <param>
+          <type>Collider2D</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Detecta si el jugador entra en el área de colisión del objeto. Si lo hace, carga la escena especificada en <computeroutput>nombreescena</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>other</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>El collider que entra en contacto con el trigger.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/ScenesManager.cs" line="25" column="18" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/ScenesManager.cs" bodystart="25" bodyend="31"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_scenes_manager_1a037c35fa0e35bb11cbc9107633075161" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.EscenaBosque</definition>
+        <argsstring>()</argsstring>
+        <name>EscenaBosque</name>
+        <qualifiedname>ScenesManager.EscenaBosque</qualifiedname>
+        <briefdescription>
+<para>Carga manualmente la escena del bosque (&quot;Forest&quot;). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/ScenesManager.cs" line="36" column="17" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/ScenesManager.cs" bodystart="36" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1a5480d449eccda5b90cf31622e5251dbb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.EscenaCuidad</definition>
+        <argsstring>()</argsstring>
+        <name>EscenaCuidad</name>
+        <qualifiedname>ScenesManager.EscenaCuidad</qualifiedname>
+        <briefdescription>
+<para>Carga manualmente la escena de la ciudad (&quot;ArventisCity&quot;). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/ScenesManager.cs" line="44" column="17" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/ScenesManager.cs" bodystart="44" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1acb3180a8d5596c36316c75a00b7b2ec8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.EscenaCastillo</definition>
+        <argsstring>()</argsstring>
+        <name>EscenaCastillo</name>
+        <qualifiedname>ScenesManager.EscenaCastillo</qualifiedname>
+        <briefdescription>
+<para>Carga manualmente la escena del castillo (&quot;ArventisCastle&quot;). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/ScenesManager.cs" line="52" column="17" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/ScenesManager.cs" bodystart="52" bodyend="55"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Controlador de escenas que permite cargar distintas escenas según interacción del jugador o mediante métodos públicos para ser utilizados desde la interfaz o botones. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>ScenesManager</label>
+        <link refid="class_scenes_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>ScenesManager</label>
+        <link refid="class_scenes_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/ScenesManager.cs" line="8" column="7" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/ScenesManager.cs" bodystart="9" bodyend="56"/>
+    <listofallmembers>
+      <member refid="class_scenes_manager_1a7ecceebd595cf3a17755e7d2d79c5dd1" prot="public" virt="non-virtual"><scope>ScenesManager</scope><name>escena</name></member>
+      <member refid="class_scenes_manager_1a037c35fa0e35bb11cbc9107633075161" prot="public" virt="non-virtual"><scope>ScenesManager</scope><name>EscenaBosque</name></member>
+      <member refid="class_scenes_manager_1acb3180a8d5596c36316c75a00b7b2ec8" prot="public" virt="non-virtual"><scope>ScenesManager</scope><name>EscenaCastillo</name></member>
+      <member refid="class_scenes_manager_1a5480d449eccda5b90cf31622e5251dbb" prot="public" virt="non-virtual"><scope>ScenesManager</scope><name>EscenaCuidad</name></member>
+      <member refid="class_scenes_manager_1aee4a96e7bf8b8d6514751762e26d9def" prot="public" virt="non-virtual"><scope>ScenesManager</scope><name>nombreescena</name></member>
+      <member refid="class_scenes_manager_1a9af638e0d75b67149575e77ed9468ba2" prot="private" virt="non-virtual"><scope>ScenesManager</scope><name>OnTriggerEnter2D</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
