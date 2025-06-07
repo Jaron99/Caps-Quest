@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="es">
+  <compounddef id="class_salida" kind="class" language="C#" prot="public">
+    <compoundname>Salida</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_salida_1a5d6915bd98b6f83668416ee439173584" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Salida.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>Salida.Update</qualifiedname>
+        <briefdescription>
+<para>Verifica cada frame si se presionó la tecla Escape. Si es así, llama al método para salir del juego. Funciona en escritorio y en dispositivos Android. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/Salida.cs" line="14" column="10" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/Salida.cs" bodystart="14" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_salida_1a2441464e75c513f4c155c7eae614031d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Salida.SalirJuego</definition>
+        <argsstring>()</argsstring>
+        <name>SalirJuego</name>
+        <qualifiedname>Salida.SalirJuego</qualifiedname>
+        <briefdescription>
+<para>Cierra la aplicación y muestra un mensaje en la consola (solo visible en el editor). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/Salida.cs" line="30" column="10" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/Salida.cs" bodystart="30" bodyend="34"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Clase que permite salir del juego cuando se presiona la tecla Escape, tanto en plataformas de escritorio como en Android. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Salida</label>
+        <link refid="class_salida"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Salida</label>
+        <link refid="class_salida"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/Salida.cs" line="7" column="7" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/Salida.cs" bodystart="8" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_salida_1a2441464e75c513f4c155c7eae614031d" prot="private" virt="non-virtual"><scope>Salida</scope><name>SalirJuego</name></member>
+      <member refid="class_salida_1a5d6915bd98b6f83668416ee439173584" prot="private" virt="non-virtual"><scope>Salida</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

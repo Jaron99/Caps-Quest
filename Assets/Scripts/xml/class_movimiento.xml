@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="es">
+  <compounddef id="class_movimiento" kind="class" language="C#" prot="public">
+    <compoundname>Movimiento</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_movimiento_1a492a65aa7588b8ae9c2aa1224fa9abdd" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Movimiento.velocidadMov</definition>
+        <argsstring></argsstring>
+        <name>velocidadMov</name>
+        <qualifiedname>Movimiento.velocidadMov</qualifiedname>
+        <briefdescription>
+<para>Velocidad de movimiento del objeto. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/Movimiento.cs" line="15" column="20" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/Movimiento.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_movimiento_1afb164b58e71f7e20fbb2b9e62d4e87ab" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 Movimiento.direccion</definition>
+        <argsstring></argsstring>
+        <name>direccion</name>
+        <qualifiedname>Movimiento.direccion</qualifiedname>
+        <briefdescription>
+<para>Dirección actual del movimiento, calculada a partir de la entrada del jugador. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/Movimiento.cs" line="20" column="22" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/Movimiento.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_movimiento_1a12f411e228ea6de772007fec111e9017" prot="private" static="no" mutable="no">
+        <type>Rigidbody2D</type>
+        <definition>Rigidbody2D Movimiento.rb</definition>
+        <argsstring></argsstring>
+        <name>rb</name>
+        <qualifiedname>Movimiento.rb</qualifiedname>
+        <briefdescription>
+<para>Referencia al componente Rigidbody2D del objeto. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/Movimiento.cs" line="25" column="25" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/Movimiento.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_movimiento_1af1ad95186a7cbda554d5be3e6e09be24" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Movimiento.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <qualifiedname>Movimiento.Start</qualifiedname>
+        <briefdescription>
+<para>Inicializa el componente Rigidbody2D. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/Movimiento.cs" line="30" column="17" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/Movimiento.cs" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_movimiento_1acd4de10c1b7c3367c1ba6cf457d159c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Movimiento.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <qualifiedname>Movimiento.Update</qualifiedname>
+        <briefdescription>
+<para>Actualiza la dirección del movimiento según la entrada del usuario cada frame. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/Movimiento.cs" line="38" column="17" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/Movimiento.cs" bodystart="38" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_movimiento_1a89d53de9b480fc40e3cdbbf9cfa4058f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Movimiento.FixedUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>FixedUpdate</name>
+        <qualifiedname>Movimiento.FixedUpdate</qualifiedname>
+        <briefdescription>
+<para>Aplica el movimiento físico al objeto en intervalos fijos. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/Movimiento.cs" line="46" column="17" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/Movimiento.cs" bodystart="46" bodyend="49"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Controla el movimiento del objeto 2D usando entrada del jugador y Rigidbody2D. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Movimiento</label>
+        <link refid="class_movimiento"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>Movimiento</label>
+        <link refid="class_movimiento"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/Movimiento.cs" line="10" column="7" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/Movimiento.cs" bodystart="11" bodyend="50"/>
+    <listofallmembers>
+      <member refid="class_movimiento_1afb164b58e71f7e20fbb2b9e62d4e87ab" prot="private" virt="non-virtual"><scope>Movimiento</scope><name>direccion</name></member>
+      <member refid="class_movimiento_1a89d53de9b480fc40e3cdbbf9cfa4058f" prot="public" virt="non-virtual"><scope>Movimiento</scope><name>FixedUpdate</name></member>
+      <member refid="class_movimiento_1a12f411e228ea6de772007fec111e9017" prot="private" virt="non-virtual"><scope>Movimiento</scope><name>rb</name></member>
+      <member refid="class_movimiento_1af1ad95186a7cbda554d5be3e6e09be24" prot="public" virt="non-virtual"><scope>Movimiento</scope><name>Start</name></member>
+      <member refid="class_movimiento_1acd4de10c1b7c3367c1ba6cf457d159c7" prot="public" virt="non-virtual"><scope>Movimiento</scope><name>Update</name></member>
+      <member refid="class_movimiento_1a492a65aa7588b8ae9c2aa1224fa9abdd" prot="private" virt="non-virtual"><scope>Movimiento</scope><name>velocidadMov</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

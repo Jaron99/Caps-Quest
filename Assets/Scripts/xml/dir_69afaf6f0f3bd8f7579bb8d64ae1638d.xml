@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="es">
+  <compounddef id="dir_69afaf6f0f3bd8f7579bb8d64ae1638d" kind="dir">
+    <compoundname>Caps Quest Remake/Caps-Quest</compoundname>
+    <innerdir refid="dir_5e1000a5f41e471ac7be7ae72facc821">Caps Quest Remake/Caps-Quest/Assets</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Caps Quest Remake/Caps-Quest/"/>
+  </compounddef>
+</doxygen>
