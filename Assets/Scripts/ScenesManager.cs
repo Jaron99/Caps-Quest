@@ -53,5 +53,10 @@ public class ScenesManager : MonoBehaviour
     {
         SceneManager.LoadScene("ArventisCastle");
     }
+
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
 }
 

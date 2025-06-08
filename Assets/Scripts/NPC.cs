@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 /// <summary>
 /// Controlador de NPC que activa diferentes tipos de paneles de ejercicio al colisionar con el jugador.
@@ -32,6 +33,11 @@ public class NPC : MonoBehaviour
     public GameObject panelcompletar;
 
     /// <summary>
+    /// Panel principal que se muestra al jugador.
+    /// </summary>
+    public GameObject MainPanel;
+
+    /// <summary>
     /// Bandera que indica si el NPC ya ha sido activado.
     /// </summary>
     private bool activado = false;
@@ -59,26 +65,30 @@ public class NPC : MonoBehaviour
             {
                 case TipoEjercicio.VyF:
                     panelvyf.SetActive(true);
+                    MainPanel.SetActive(false);
                     break;
 
                 case TipoEjercicio.Seleccion:
                     panelseleccion.SetActive(true);
+                    MainPanel.SetActive(false);
                     break;
 
                 case TipoEjercicio.Completar:
                     panelcompletar.SetActive(true);
+                    MainPanel.SetActive(false);
                     break;
             }
         }
     }
 
     /// <summary>
-    /// Cierra el panel activo y reactiva el movimiento del jugador.
-    /// Este método puede ser llamado por botones en los paneles.
+    /// Activa el moviemiento del jugador cuando se cierra el panel de ejercicio.
+    /// También muestra el panel principal del juego.
     /// </summary>
-    public void CerrarPanel()
+    public void ActivarMovimiento()
     {
         jugador.GetComponent<Movimiento>().enabled = true;
+        MainPanel.SetActive(true);
     }
 }
 
