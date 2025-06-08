@@ -1,0 +1,22 @@
+#Ignora las carpetas del proyecto
+/.plastic/
+/.utmp/
+/.vs/
+/.vscode/
+/Builds/
+/Packages/
+/Library/
+/Logs/
+/obj/
+/ProjectSettings/
+/Temp/
+/UserSettings/
+/.vsconfig
+/Doxyfile
+
+#Ignora los archivos generados
+*.csproj
+*.sln
+*.conf
+*.temp
+

@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/CambioOutro.cs" line="15" column="10" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/CambioOutro.cs" bodystart="15" bodyend="18"/>
+        <location file="Assets/Scripts/CambioOutro.cs" line="15" column="10" bodyfile="Assets/Scripts/CambioOutro.cs" bodystart="15" bodyend="18"/>
       </memberdef>
       <memberdef kind="function" id="class_cambio_outro_1a1d70009c4d3c3795527913632f68215b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>IEnumerator</type>
@@ -35,7 +35,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/CambioOutro.cs" line="24" column="17" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/CambioOutro.cs" bodystart="24" bodyend="28"/>
+        <location file="Assets/Scripts/CambioOutro.cs" line="24" column="17" bodyfile="Assets/Scripts/CambioOutro.cs" bodystart="24" bodyend="28"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -65,7 +65,7 @@
         <label>MonoBehaviour</label>
       </node>
     </collaborationgraph>
-    <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/CambioOutro.cs" line="9" column="7" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/CambioOutro.cs" bodystart="10" bodyend="29"/>
+    <location file="Assets/Scripts/CambioOutro.cs" line="9" column="7" bodyfile="Assets/Scripts/CambioOutro.cs" bodystart="10" bodyend="29"/>
     <listofallmembers>
       <member refid="class_cambio_outro_1a1d70009c4d3c3795527913632f68215b" prot="private" virt="non-virtual"><scope>CambioOutro</scope><name>Outro</name></member>
       <member refid="class_cambio_outro_1ae37d0720918f1e3c13ac1544e79797a7" prot="private" virt="non-virtual"><scope>CambioOutro</scope><name>Start</name></member>

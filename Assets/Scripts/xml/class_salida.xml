@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/Salida.cs" line="14" column="10" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/Salida.cs" bodystart="14" bodyend="25"/>
+        <location file="Assets/Scripts/Salida.cs" line="14" column="10" bodyfile="Assets/Scripts/Salida.cs" bodystart="14" bodyend="25"/>
       </memberdef>
       <memberdef kind="function" id="class_salida_1a2441464e75c513f4c155c7eae614031d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/Salida.cs" line="30" column="10" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/Salida.cs" bodystart="30" bodyend="34"/>
+        <location file="Assets/Scripts/Salida.cs" line="30" column="10" bodyfile="Assets/Scripts/Salida.cs" bodystart="30" bodyend="34"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -62,7 +62,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/Salida.cs" line="7" column="7" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/Salida.cs" bodystart="8" bodyend="35"/>
+    <location file="Assets/Scripts/Salida.cs" line="7" column="7" bodyfile="Assets/Scripts/Salida.cs" bodystart="8" bodyend="35"/>
     <listofallmembers>
       <member refid="class_salida_1a2441464e75c513f4c155c7eae614031d" prot="private" virt="non-virtual"><scope>Salida</scope><name>SalirJuego</name></member>
       <member refid="class_salida_1a5d6915bd98b6f83668416ee439173584" prot="private" virt="non-virtual"><scope>Salida</scope><name>Update</name></member>

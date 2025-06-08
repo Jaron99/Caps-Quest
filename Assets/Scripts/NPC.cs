@@ -38,18 +38,24 @@ public class NPC : MonoBehaviour
     public GameObject MainPanel;
 
     /// <summary>
-    /// Bandera que indica si el NPC ya ha sido activado.
+    /// Referencia al joystick virtual utilizado para el control del jugador.
+    /// </summary>
+    public Joystick joystick;
+
+    /// <summary>
+    /// Bandera que indica si el NPC ya ha sido activado para evitar múltiples activaciones.
     /// </summary>
     private bool activado = false;
 
     /// <summary>
-    /// Referencia al jugador que ha activado el NPC.
+    /// Referencia al objeto jugador que ha activado este NPC.
     /// </summary>
     private GameObject jugador;
 
     /// <summary>
     /// Se ejecuta cuando otro collider entra en la zona de colisión del NPC.
-    /// Si el objeto es el jugador y aún no se ha activado, se muestra el panel correspondiente y se desactiva el movimiento del jugador.
+    /// Si el objeto es el jugador y aún no se ha activado, se muestra el panel correspondiente
+    /// y se desactiva el movimiento del jugador.
     /// </summary>
     /// <param name="other">Collider del objeto que entra en contacto con el NPC.</param>
     void OnTriggerEnter2D(Collider2D other)
@@ -65,30 +71,30 @@ public class NPC : MonoBehaviour
             {
                 case TipoEjercicio.VyF:
                     panelvyf.SetActive(true);
-                    MainPanel.SetActive(false);
                     break;
 
                 case TipoEjercicio.Seleccion:
                     panelseleccion.SetActive(true);
-                    MainPanel.SetActive(false);
                     break;
 
                 case TipoEjercicio.Completar:
                     panelcompletar.SetActive(true);
-                    MainPanel.SetActive(false);
                     break;
             }
+
+            MainPanel.SetActive(false);
+            joystick.gameObject.SetActive(false);
         }
     }
 
     /// <summary>
-    /// Activa el moviemiento del jugador cuando se cierra el panel de ejercicio.
-    /// También muestra el panel principal del juego.
+    /// Activa nuevamente el movimiento del jugador cuando se cierra el panel de ejercicio.
+    /// También vuelve a mostrar el panel principal y el joystick virtual.
     /// </summary>
     public void ActivarMovimiento()
     {
         jugador.GetComponent<Movimiento>().enabled = true;
         MainPanel.SetActive(true);
+        joystick.gameObject.SetActive(true);
     }
 }
-

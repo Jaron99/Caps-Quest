@@ -36,7 +36,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/NPC.cs" line="12" column="11" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/NPC.cs" bodystart="12" bodyend="12"/>
+        <location file="Assets/Scripts/NPC.cs" line="13" column="11" bodyfile="Assets/Scripts/NPC.cs" bodystart="13" bodyend="13"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-attrib">
@@ -53,7 +53,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/NPC.cs" line="17" column="26" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/NPC.cs" bodystart="17" bodyend="-1"/>
+        <location file="Assets/Scripts/NPC.cs" line="18" column="26" bodyfile="Assets/Scripts/NPC.cs" bodystart="18" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_n_p_c_1a98f42b71a2ead624d897ee41c5d67cfb" prot="public" static="no" mutable="no">
         <type>GameObject</type>
@@ -68,7 +68,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/NPC.cs" line="22" column="23" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/NPC.cs" bodystart="22" bodyend="-1"/>
+        <location file="Assets/Scripts/NPC.cs" line="23" column="23" bodyfile="Assets/Scripts/NPC.cs" bodystart="23" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_n_p_c_1ab1a037a822a5046016b1429d6e7f5c92" prot="public" static="no" mutable="no">
         <type>GameObject</type>
@@ -83,7 +83,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/NPC.cs" line="27" column="23" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/NPC.cs" bodystart="27" bodyend="-1"/>
+        <location file="Assets/Scripts/NPC.cs" line="28" column="23" bodyfile="Assets/Scripts/NPC.cs" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_n_p_c_1aa33f00d5202abeb0689902e2496c733e" prot="public" static="no" mutable="no">
         <type>GameObject</type>
@@ -98,7 +98,37 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/NPC.cs" line="32" column="23" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/NPC.cs" bodystart="32" bodyend="-1"/>
+        <location file="Assets/Scripts/NPC.cs" line="33" column="23" bodyfile="Assets/Scripts/NPC.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_p_c_1aa0b02f349102a62d35bee0e4ad521ab5" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject NPC.MainPanel</definition>
+        <argsstring></argsstring>
+        <name>MainPanel</name>
+        <qualifiedname>NPC.MainPanel</qualifiedname>
+        <briefdescription>
+<para>Panel principal que se muestra al jugador. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/NPC.cs" line="38" column="23" bodyfile="Assets/Scripts/NPC.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_n_p_c_1ac1cbb94d41aa6fe1431d6aff62ce1fc3" prot="public" static="no" mutable="no">
+        <type>Joystick</type>
+        <definition>Joystick NPC.joystick</definition>
+        <argsstring></argsstring>
+        <name>joystick</name>
+        <qualifiedname>NPC.joystick</qualifiedname>
+        <briefdescription>
+<para>Referencia al joystick virtual utilizado para el control del jugador. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/NPC.cs" line="43" column="21" bodyfile="Assets/Scripts/NPC.cs" bodystart="43" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -110,13 +140,13 @@
         <qualifiedname>NPC.activado</qualifiedname>
         <initializer>= false</initializer>
         <briefdescription>
-<para>Bandera que indica si el <ref refid="class_n_p_c" kindref="compound">NPC</ref> ya ha sido activado. </para>
+<para>Bandera que indica si el <ref refid="class_n_p_c" kindref="compound">NPC</ref> ya ha sido activado para evitar múltiples activaciones. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/NPC.cs" line="37" column="18" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/NPC.cs" bodystart="37" bodyend="-1"/>
+        <location file="Assets/Scripts/NPC.cs" line="48" column="18" bodyfile="Assets/Scripts/NPC.cs" bodystart="48" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_n_p_c_1a5b79779c1e3f3f2d05d85febd390cfac" prot="private" static="no" mutable="no">
         <type>GameObject</type>
@@ -125,13 +155,13 @@
         <name>jugador</name>
         <qualifiedname>NPC.jugador</qualifiedname>
         <briefdescription>
-<para>Referencia al jugador que ha activado el <ref refid="class_n_p_c" kindref="compound">NPC</ref>. </para>
+<para>Referencia al objeto jugador que ha activado este <ref refid="class_n_p_c" kindref="compound">NPC</ref>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/NPC.cs" line="42" column="24" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/NPC.cs" bodystart="42" bodyend="-1"/>
+        <location file="Assets/Scripts/NPC.cs" line="53" column="24" bodyfile="Assets/Scripts/NPC.cs" bodystart="53" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -162,24 +192,24 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/NPC.cs" line="49" column="10" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/NPC.cs" bodystart="49" bodyend="73"/>
+        <location file="Assets/Scripts/NPC.cs" line="61" column="10" bodyfile="Assets/Scripts/NPC.cs" bodystart="61" bodyend="88"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="class_n_p_c_1a375667ed04cbbc8dc51e4baf9b65eebc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="class_n_p_c_1ab81f7f4c5ac8e6d61e534f7c9f85aeea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
-        <definition>void NPC.CerrarPanel</definition>
+        <definition>void NPC.ActivarMovimiento</definition>
         <argsstring>()</argsstring>
-        <name>CerrarPanel</name>
-        <qualifiedname>NPC.CerrarPanel</qualifiedname>
+        <name>ActivarMovimiento</name>
+        <qualifiedname>NPC.ActivarMovimiento</qualifiedname>
         <briefdescription>
-<para>Cierra el panel activo y reactiva el movimiento del jugador. Este método puede ser llamado por botones en los paneles. </para>
+<para>Activa nuevamente el movimiento del jugador cuando se cierra el panel de ejercicio. También vuelve a mostrar el panel principal y el joystick virtual. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/NPC.cs" line="79" column="17" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/NPC.cs" bodystart="79" bodyend="82"/>
+        <location file="Assets/Scripts/NPC.cs" line="94" column="17" bodyfile="Assets/Scripts/NPC.cs" bodystart="94" bodyend="99"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -209,11 +239,13 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/NPC.cs" line="7" column="7" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/NPC.cs" bodystart="8" bodyend="83"/>
+    <location file="Assets/Scripts/NPC.cs" line="8" column="7" bodyfile="Assets/Scripts/NPC.cs" bodystart="9" bodyend="100"/>
     <listofallmembers>
       <member refid="class_n_p_c_1a540388d0a7a6328dcba6b691d219a969" prot="private" virt="non-virtual"><scope>NPC</scope><name>activado</name></member>
-      <member refid="class_n_p_c_1a375667ed04cbbc8dc51e4baf9b65eebc" prot="public" virt="non-virtual"><scope>NPC</scope><name>CerrarPanel</name></member>
+      <member refid="class_n_p_c_1ab81f7f4c5ac8e6d61e534f7c9f85aeea" prot="public" virt="non-virtual"><scope>NPC</scope><name>ActivarMovimiento</name></member>
+      <member refid="class_n_p_c_1ac1cbb94d41aa6fe1431d6aff62ce1fc3" prot="public" virt="non-virtual"><scope>NPC</scope><name>joystick</name></member>
       <member refid="class_n_p_c_1a5b79779c1e3f3f2d05d85febd390cfac" prot="private" virt="non-virtual"><scope>NPC</scope><name>jugador</name></member>
+      <member refid="class_n_p_c_1aa0b02f349102a62d35bee0e4ad521ab5" prot="public" virt="non-virtual"><scope>NPC</scope><name>MainPanel</name></member>
       <member refid="class_n_p_c_1a6e0beba82b5fe7c2b22a8edb2511e82d" prot="private" virt="non-virtual"><scope>NPC</scope><name>OnTriggerEnter2D</name></member>
       <member refid="class_n_p_c_1aa33f00d5202abeb0689902e2496c733e" prot="public" virt="non-virtual"><scope>NPC</scope><name>panelcompletar</name></member>
       <member refid="class_n_p_c_1ab1a037a822a5046016b1429d6e7f5c92" prot="public" virt="non-virtual"><scope>NPC</scope><name>panelseleccion</name></member>

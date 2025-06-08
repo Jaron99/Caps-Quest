@@ -1,4 +1,9 @@
 var searchData=
 [
-  ['vyf_0',['VyF',['../class_n_p_c.html#a8dd3fdf6a75e7cf833d49b85802cce51acbf058c7ffd2ad16dfc1db4bddd07371',1,'NPC']]]
+  ['panelcompletar_0',['panelcompletar',['../class_n_p_c.html#aa33f00d5202abeb0689902e2496c733e',1,'NPC']]],
+  ['panelseleccion_1',['panelseleccion',['../class_n_p_c.html#ab1a037a822a5046016b1429d6e7f5c92',1,'NPC']]],
+  ['panelvyf_2',['panelvyf',['../class_n_p_c.html#a98f42b71a2ead624d897ee41c5d67cfb',1,'NPC']]],
+  ['para_20ejecutar_3',['Instrucciones para Ejecutar',['../C:/Users/Postekusa/Caps Quest Remake/Assets/Scripts/Readme.md#autotoc_md18',1,'']]],
+  ['principales_4',['Características Principales',['../C:/Users/Postekusa/Caps Quest Remake/Assets/Scripts/Readme.md#autotoc_md5',1,'']]],
+  ['proyecto_5',['Descripción del Proyecto',['../C:/Users/Postekusa/Caps Quest Remake/Assets/Scripts/Readme.md#autotoc_md3',1,'']]]
 ];

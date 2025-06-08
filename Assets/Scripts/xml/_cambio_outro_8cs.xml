@@ -27,6 +27,6 @@
 <codeline lineno="29"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/CambioOutro.cs"/>
+    <location file="Assets/Scripts/CambioOutro.cs"/>
   </compounddef>
 </doxygen>

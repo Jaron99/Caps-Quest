@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="es">
+  <compounddef id="class_texto_actividad_individual" kind="class" language="C#" prot="public">
+    <compoundname>TextoActividadIndividual</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_texto_actividad_individual_1a1021bc030af7de6f832a59442e1127a0" prot="private" static="no" mutable="no">
+        <type>TextMeshProUGUI</type>
+        <definition>TextMeshProUGUI TextoActividadIndividual.textoUI</definition>
+        <argsstring></argsstring>
+        <name>textoUI</name>
+        <qualifiedname>TextoActividadIndividual.textoUI</qualifiedname>
+        <briefdescription>
+<para>Componente de texto donde se mostrará el contenido de la actividad. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ActivitiesManager.cs" line="14" column="29" bodyfile="Assets/Scripts/ActivitiesManager.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_texto_actividad_individual_1ab6de7d1395c3d2fe04575c209e90ba4a" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string TextoActividadIndividual.numeroActividad</definition>
+        <argsstring></argsstring>
+        <name>numeroActividad</name>
+        <qualifiedname>TextoActividadIndividual.numeroActividad</qualifiedname>
+        <initializer>= &quot;1&quot;</initializer>
+        <briefdescription>
+<para>Número identificador de la actividad que se desea mostrar. Debe coincidir con la primera columna del archivo de texto. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ActivitiesManager.cs" line="22" column="19" bodyfile="Assets/Scripts/ActivitiesManager.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_texto_actividad_individual_1ab5166f98f0318d156029f1fcf35542e0" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int TextoActividadIndividual.indiceCampo</definition>
+        <argsstring></argsstring>
+        <name>indiceCampo</name>
+        <qualifiedname>TextoActividadIndividual.indiceCampo</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Índice del campo que se desea mostrar de la línea correspondiente. Por ejemplo, 0 = número, 1 = enunciado, 2 = opciones o respuesta. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ActivitiesManager.cs" line="29" column="16" bodyfile="Assets/Scripts/ActivitiesManager.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_texto_actividad_individual_1a4c1a1b36e3250ccc4c5df186939dca31" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string TextoActividadIndividual.nombreArchivo</definition>
+        <argsstring></argsstring>
+        <name>nombreArchivo</name>
+        <qualifiedname>TextoActividadIndividual.nombreArchivo</qualifiedname>
+        <initializer>= &quot;Actividades&quot;</initializer>
+        <briefdescription>
+<para>Nombre del archivo dentro de la carpeta Resources (sin extensión). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ActivitiesManager.cs" line="36" column="19" bodyfile="Assets/Scripts/ActivitiesManager.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_texto_actividad_individual_1a7dc2f110cd7696ea009cbb02f0746298" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char TextoActividadIndividual.delimitador</definition>
+        <argsstring></argsstring>
+        <name>delimitador</name>
+        <qualifiedname>TextoActividadIndividual.delimitador</qualifiedname>
+        <initializer>= &apos;|&apos;</initializer>
+        <briefdescription>
+<para>Carácter delimitador usado en el archivo de texto para separar campos. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ActivitiesManager.cs" line="41" column="17" bodyfile="Assets/Scripts/ActivitiesManager.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_texto_actividad_individual_1af1edffa22e1bd083a07de2f46134341f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TextoActividadIndividual.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <qualifiedname>TextoActividadIndividual.Awake</qualifiedname>
+        <briefdescription>
+<para>Inicializa el componente y carga el texto correspondiente a la actividad. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ActivitiesManager.cs" line="46" column="10" bodyfile="Assets/Scripts/ActivitiesManager.cs" bodystart="46" bodyend="57"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_texto_actividad_individual_1a9cce28e45aabb5b66b78c2272f8dbdb8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TextoActividadIndividual.CargarTexto</definition>
+        <argsstring>()</argsstring>
+        <name>CargarTexto</name>
+        <qualifiedname>TextoActividadIndividual.CargarTexto</qualifiedname>
+        <briefdescription>
+<para>Carga el archivo de texto desde Resources y asigna el texto al campo UI según el número de actividad y el índice de campo especificado. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ActivitiesManager.cs" line="63" column="17" bodyfile="Assets/Scripts/ActivitiesManager.cs" bodystart="63" bodyend="113"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Carga y muestra dinámicamente el texto de una actividad individual desde un archivo de texto. Este script debe estar en un GameObject con un componente TextMeshProUGUI. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>TextoActividadIndividual</label>
+        <link refid="class_texto_actividad_individual"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>TextoActividadIndividual</label>
+        <link refid="class_texto_actividad_individual"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/ActivitiesManager.cs" line="9" column="7" bodyfile="Assets/Scripts/ActivitiesManager.cs" bodystart="10" bodyend="114"/>
+    <listofallmembers>
+      <member refid="class_texto_actividad_individual_1af1edffa22e1bd083a07de2f46134341f" prot="private" virt="non-virtual"><scope>TextoActividadIndividual</scope><name>Awake</name></member>
+      <member refid="class_texto_actividad_individual_1a9cce28e45aabb5b66b78c2272f8dbdb8" prot="public" virt="non-virtual"><scope>TextoActividadIndividual</scope><name>CargarTexto</name></member>
+      <member refid="class_texto_actividad_individual_1a7dc2f110cd7696ea009cbb02f0746298" prot="public" virt="non-virtual"><scope>TextoActividadIndividual</scope><name>delimitador</name></member>
+      <member refid="class_texto_actividad_individual_1ab5166f98f0318d156029f1fcf35542e0" prot="public" virt="non-virtual"><scope>TextoActividadIndividual</scope><name>indiceCampo</name></member>
+      <member refid="class_texto_actividad_individual_1a4c1a1b36e3250ccc4c5df186939dca31" prot="public" virt="non-virtual"><scope>TextoActividadIndividual</scope><name>nombreArchivo</name></member>
+      <member refid="class_texto_actividad_individual_1ab6de7d1395c3d2fe04575c209e90ba4a" prot="public" virt="non-virtual"><scope>TextoActividadIndividual</scope><name>numeroActividad</name></member>
+      <member refid="class_texto_actividad_individual_1a1021bc030af7de6f832a59442e1127a0" prot="private" virt="non-virtual"><scope>TextoActividadIndividual</scope><name>textoUI</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

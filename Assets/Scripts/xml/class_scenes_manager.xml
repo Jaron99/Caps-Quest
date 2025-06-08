@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/ScenesManager.cs" line="13" column="11" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/ScenesManager.cs" bodystart="13" bodyend="13"/>
+        <location file="Assets/Scripts/ScenesManager.cs" line="13" column="11" bodyfile="Assets/Scripts/ScenesManager.cs" bodystart="13" bodyend="13"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-attrib">
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/ScenesManager.cs" line="18" column="19" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/ScenesManager.cs" bodystart="18" bodyend="-1"/>
+        <location file="Assets/Scripts/ScenesManager.cs" line="18" column="19" bodyfile="Assets/Scripts/ScenesManager.cs" bodystart="18" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -91,7 +91,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/ScenesManager.cs" line="25" column="18" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/ScenesManager.cs" bodystart="25" bodyend="31"/>
+        <location file="Assets/Scripts/ScenesManager.cs" line="25" column="18" bodyfile="Assets/Scripts/ScenesManager.cs" bodystart="25" bodyend="31"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -108,7 +108,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/ScenesManager.cs" line="36" column="17" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/ScenesManager.cs" bodystart="36" bodyend="39"/>
+        <location file="Assets/Scripts/ScenesManager.cs" line="36" column="17" bodyfile="Assets/Scripts/ScenesManager.cs" bodystart="36" bodyend="39"/>
       </memberdef>
       <memberdef kind="function" id="class_scenes_manager_1a5480d449eccda5b90cf31622e5251dbb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -123,7 +123,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/ScenesManager.cs" line="44" column="17" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/ScenesManager.cs" bodystart="44" bodyend="47"/>
+        <location file="Assets/Scripts/ScenesManager.cs" line="44" column="17" bodyfile="Assets/Scripts/ScenesManager.cs" bodystart="44" bodyend="47"/>
       </memberdef>
       <memberdef kind="function" id="class_scenes_manager_1acb3180a8d5596c36316c75a00b7b2ec8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -138,7 +138,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/ScenesManager.cs" line="52" column="17" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/ScenesManager.cs" bodystart="52" bodyend="55"/>
+        <location file="Assets/Scripts/ScenesManager.cs" line="52" column="17" bodyfile="Assets/Scripts/ScenesManager.cs" bodystart="52" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scenes_manager_1a0d31f1932bd06743935cf37c65d7407d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ScenesManager.MainMenu</definition>
+        <argsstring>()</argsstring>
+        <name>MainMenu</name>
+        <qualifiedname>ScenesManager.MainMenu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ScenesManager.cs" line="57" column="17" bodyfile="Assets/Scripts/ScenesManager.cs" bodystart="57" bodyend="60"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -168,12 +182,13 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/ScenesManager.cs" line="8" column="7" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/ScenesManager.cs" bodystart="9" bodyend="56"/>
+    <location file="Assets/Scripts/ScenesManager.cs" line="8" column="7" bodyfile="Assets/Scripts/ScenesManager.cs" bodystart="9" bodyend="61"/>
     <listofallmembers>
       <member refid="class_scenes_manager_1a7ecceebd595cf3a17755e7d2d79c5dd1" prot="public" virt="non-virtual"><scope>ScenesManager</scope><name>escena</name></member>
       <member refid="class_scenes_manager_1a037c35fa0e35bb11cbc9107633075161" prot="public" virt="non-virtual"><scope>ScenesManager</scope><name>EscenaBosque</name></member>
       <member refid="class_scenes_manager_1acb3180a8d5596c36316c75a00b7b2ec8" prot="public" virt="non-virtual"><scope>ScenesManager</scope><name>EscenaCastillo</name></member>
       <member refid="class_scenes_manager_1a5480d449eccda5b90cf31622e5251dbb" prot="public" virt="non-virtual"><scope>ScenesManager</scope><name>EscenaCuidad</name></member>
+      <member refid="class_scenes_manager_1a0d31f1932bd06743935cf37c65d7407d" prot="public" virt="non-virtual"><scope>ScenesManager</scope><name>MainMenu</name></member>
       <member refid="class_scenes_manager_1aee4a96e7bf8b8d6514751762e26d9def" prot="public" virt="non-virtual"><scope>ScenesManager</scope><name>nombreescena</name></member>
       <member refid="class_scenes_manager_1a9af638e0d75b67149575e77ed9468ba2" prot="private" virt="non-virtual"><scope>ScenesManager</scope><name>OnTriggerEnter2D</name></member>
     </listofallmembers>

@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="es">
+  <compounddef id="_readme_8md" kind="file" language="Markdown">
+    <compoundname>Readme.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>Caps<sp/>Quest</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Grupo<sp/>Gama<sp/>Alta</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Caps<sp/>Quest<sp/>es<sp/>un<sp/>juego<sp/>educativo<sp/>diseñado<sp/>para<sp/>ayudar<sp/>a<sp/>estudiantes<sp/>de<sp/>cuarto<sp/>grado<sp/>a<sp/>aprender<sp/>el<sp/>uso<sp/>correcto<sp/>de<sp/>las<sp/>letras<sp/>mayúsculas<sp/>en<sp/>nombres<sp/>propios<sp/>(antropónimos)<sp/>a<sp/>través<sp/>de<sp/>ejercicios<sp/>interactivos<sp/>y<sp/>divertidos.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Descripción<sp/>del<sp/>Proyecto</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Caps<sp/>Quest<sp/>presenta<sp/>una<sp/>aventura<sp/>en<sp/>la<sp/>que<sp/>un<sp/>malvado<sp/>mago<sp/>ha<sp/>lanzado<sp/>un<sp/>hechizo<sp/>sobre<sp/>el<sp/>reino,<sp/>haciendo<sp/>que<sp/>sus<sp/>habitantes<sp/>olviden<sp/>las<sp/>reglas<sp/>gramaticales<sp/>para<sp/>el<sp/>uso<sp/>de<sp/>las<sp/>mayúsculas.<sp/>El<sp/>jugador<sp/>debe<sp/>completar<sp/>diferentes<sp/>tipos<sp/>de<sp/>ejercicios<sp/>para<sp/>romper<sp/>el<sp/>hechizo<sp/>y<sp/>restaurar<sp/>el<sp/>conocimiento.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Características<sp/>Principales</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>Tres<sp/>tipos<sp/>de<sp/>ejercicios:<sp/>Verdadero<sp/>y<sp/>Falso,<sp/>Selección<sp/>Múltiple<sp/>y<sp/>Completar.</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Interacción<sp/>con<sp/>NPCs<sp/>que<sp/>activan<sp/>paneles<sp/>de<sp/>ejercicios<sp/>al<sp/>colisionar.</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Control<sp/>de<sp/>movimiento<sp/>2D<sp/>con<sp/>joystick<sp/>virtual<sp/>o<sp/>teclado.</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Sistema<sp/>para<sp/>mostrar<sp/>texto<sp/>de<sp/>actividades<sp/>dinámicamente<sp/>desde<sp/>archivos.</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Control<sp/>de<sp/>animaciones<sp/>basado<sp/>en<sp/>el<sp/>movimiento<sp/>del<sp/>jugador.</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Interfaz<sp/>que<sp/>oculta<sp/>y<sp/>muestra<sp/>paneles<sp/>según<sp/>la<sp/>actividad<sp/>en<sp/>curso.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Estructura<sp/>de<sp/>Scripts</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>NPC.cs</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Controla<sp/>la<sp/>interacción<sp/>con<sp/>NPCs<sp/>que<sp/>activan<sp/>los<sp/>paneles<sp/>de<sp/>ejercicios<sp/>y<sp/>deshabilita<sp/>el<sp/>movimiento<sp/>del<sp/>jugador<sp/>mientras<sp/>se<sp/>realiza<sp/>una<sp/>actividad.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>TextoActividadIndividual.cs</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Carga<sp/>y<sp/>muestra<sp/>el<sp/>texto<sp/>de<sp/>las<sp/>actividades<sp/>desde<sp/>archivos<sp/>de<sp/>texto<sp/>ubicados<sp/>en<sp/>la<sp/>carpeta<sp/>Resources.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Movimiento.cs</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Gestiona<sp/>el<sp/>movimiento<sp/>del<sp/>personaje<sp/>usando<sp/>Rigidbody2D<sp/>y<sp/>entradas<sp/>del<sp/>joystick<sp/>o<sp/>teclado,<sp/>además<sp/>de<sp/>controlar<sp/>las<sp/>animaciones.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>CambioIntro.cs</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Se<sp/>encarga<sp/>de<sp/>hacer<sp/>el<sp/>cambio<sp/>de<sp/>escena<sp/>cronometrado<sp/>despues<sp/>que<sp/>se<sp/>muestra<sp/>el<sp/>logo<sp/>de<sp/>los<sp/>desarrolladores.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>CambioOutro.cs</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Igual<sp/>que<sp/>el<sp/>anterior<sp/>este<sp/>se<sp/>encarga<sp/>de<sp/>hacer<sp/>el<sp/>cambio<sp/>de<sp/>escena<sp/>en<sp/>la<sp/>escena<sp/>final<sp/>del<sp/>juego<sp/>para<sp/>que<sp/>vuelva<sp/>a<sp/>empezar<sp/>al<sp/>Menu<sp/>Principal.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Salida.cs</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Un<sp/>script<sp/>basico<sp/>que<sp/>permite<sp/>salir<sp/>de<sp/>la<sp/>ejecucion<sp/>del<sp/>juego<sp/>presionando<sp/>ESC<sp/>en<sp/>PC<sp/>o<sp/>el<sp/>boton<sp/>Atras<sp/>en<sp/>Android.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>SceneManager.cs</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Esta<sp/>clase<sp/>se<sp/>encarga<sp/>de<sp/>manejar<sp/>los<sp/>cambios<sp/>de<sp/>escenas<sp/>que<sp/>ocurre<sp/>durante<sp/>todo<sp/>el<sp/>trancurso<sp/>del<sp/>juego.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Requisitos</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>Unity<sp/>(versión<sp/>compatible<sp/>con<sp/>tu<sp/>proyecto)</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Paquete<sp/>de<sp/>joystick<sp/>virtual<sp/>de<sp/>Fenerax<sp/>Studios<sp/>(o<sp/>equivalente)</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Carpeta<sp/>`Resources`<sp/>con<sp/>los<sp/>archivos<sp/>de<sp/>texto<sp/>para<sp/>las<sp/>actividades</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Paquete<sp/>Cinemachine<sp/>de<sp/>la<sp/>Assets<sp/>Store<sp/>de<sp/>Unity</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Instrucciones<sp/>para<sp/>Ejecutar</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">1.<sp/>Abre<sp/>el<sp/>proyecto<sp/>en<sp/>Unity.</highlight></codeline>
+<codeline><highlight class="normal">2.<sp/>Asegúrate<sp/>de<sp/>que<sp/>los<sp/>scripts<sp/>estén<sp/>asignados<sp/>a<sp/>los<sp/>GameObjects<sp/>correspondientes.</highlight></codeline>
+<codeline><highlight class="normal">3.<sp/>Configura<sp/>los<sp/>paneles<sp/>de<sp/>ejercicios<sp/>en<sp/>los<sp/>NPCs.</highlight></codeline>
+<codeline><highlight class="normal">4.<sp/>Ejecuta<sp/>la<sp/>escena<sp/>principal<sp/>y<sp/>prueba<sp/>los<sp/>movimientos<sp/>y<sp/>ejercicios.</highlight></codeline>
+<codeline><highlight class="normal">5.<sp/>Usa<sp/>el<sp/>joystick<sp/>o<sp/>teclado<sp/>para<sp/>moverte<sp/>y<sp/>colisiona<sp/>con<sp/>los<sp/>NPCs<sp/>para<sp/>activar<sp/>los<sp/>ejercicios.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Autores</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>Grupo<sp/>Gama<sp/>Alta</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">---</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Contacto</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Para<sp/>soporte<sp/>o<sp/>sugerencias,<sp/>contactar<sp/>con<sp/>el<sp/>equipo<sp/>de<sp/>desarrollo<sp/>del<sp/>Grupo<sp/>Gama<sp/>Alta.</highlight></codeline>
+<codeline><highlight class="normal">Correo:<sp/>jaron.aviles@gmail.com</highlight></codeline>
+    </programlisting>
+    <location file="Assets/Scripts/Readme.md"/>
+  </compounddef>
+</doxygen>

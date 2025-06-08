@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/Movimiento.cs" line="15" column="20" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/Movimiento.cs" bodystart="15" bodyend="-1"/>
+        <location file="Assets/Scripts/Movimiento.cs" line="13" column="20" bodyfile="Assets/Scripts/Movimiento.cs" bodystart="13" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_movimiento_1afb164b58e71f7e20fbb2b9e62d4e87ab" prot="private" static="no" mutable="no">
         <type>Vector2</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/Movimiento.cs" line="20" column="22" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/Movimiento.cs" bodystart="20" bodyend="-1"/>
+        <location file="Assets/Scripts/Movimiento.cs" line="18" column="22" bodyfile="Assets/Scripts/Movimiento.cs" bodystart="18" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_movimiento_1a12f411e228ea6de772007fec111e9017" prot="private" static="no" mutable="no">
         <type>Rigidbody2D</type>
@@ -47,7 +47,39 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/Movimiento.cs" line="25" column="25" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/Movimiento.cs" bodystart="25" bodyend="-1"/>
+        <location file="Assets/Scripts/Movimiento.cs" line="23" column="25" bodyfile="Assets/Scripts/Movimiento.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_movimiento_1aea5d604a554d303f905742634b1885cc" prot="private" static="no" mutable="no">
+        <type>Animator</type>
+        <definition>Animator Movimiento.anim</definition>
+        <argsstring></argsstring>
+        <name>anim</name>
+        <qualifiedname>Movimiento.anim</qualifiedname>
+        <briefdescription>
+<para>Referencia al componente Animator del objeto para controlar animaciones. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Movimiento.cs" line="28" column="22" bodyfile="Assets/Scripts/Movimiento.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_movimiento_1aabf1bb56af47e345575d46ac941abd8f" prot="public" static="no" mutable="no">
+        <type>Joystick</type>
+        <definition>Joystick Movimiento.joystick</definition>
+        <argsstring></argsstring>
+        <name>joystick</name>
+        <qualifiedname>Movimiento.joystick</qualifiedname>
+        <briefdescription>
+<para>Referencia al joystick utilizado para controlar el movimiento (opcional). Puede ser FixedJoystick, FloatingJoystick o Joystick según el tipo usado. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Movimiento.cs" line="34" column="21" bodyfile="Assets/Scripts/Movimiento.cs" bodystart="34" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -58,13 +90,13 @@
         <name>Start</name>
         <qualifiedname>Movimiento.Start</qualifiedname>
         <briefdescription>
-<para>Inicializa el componente Rigidbody2D. </para>
+<para>Inicializa las referencias al Rigidbody2D y al Animator del objeto. Verifica también que el joystick haya sido asignado correctamente. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/Movimiento.cs" line="30" column="17" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/Movimiento.cs" bodystart="30" bodyend="33"/>
+        <location file="Assets/Scripts/Movimiento.cs" line="40" column="17" bodyfile="Assets/Scripts/Movimiento.cs" bodystart="40" bodyend="50"/>
       </memberdef>
       <memberdef kind="function" id="class_movimiento_1acd4de10c1b7c3367c1ba6cf457d159c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -73,13 +105,13 @@
         <name>Update</name>
         <qualifiedname>Movimiento.Update</qualifiedname>
         <briefdescription>
-<para>Actualiza la dirección del movimiento según la entrada del usuario cada frame. </para>
+<para>Lee la entrada del jugador (teclado o joystick) y calcula la dirección del movimiento. Actualiza también los parámetros del Animator para reflejar la animación correspondiente. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/Movimiento.cs" line="38" column="17" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/Movimiento.cs" bodystart="38" bodyend="41"/>
+        <location file="Assets/Scripts/Movimiento.cs" line="56" column="17" bodyfile="Assets/Scripts/Movimiento.cs" bodystart="56" bodyend="80"/>
       </memberdef>
       <memberdef kind="function" id="class_movimiento_1a89d53de9b480fc40e3cdbbf9cfa4058f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -88,17 +120,17 @@
         <name>FixedUpdate</name>
         <qualifiedname>Movimiento.FixedUpdate</qualifiedname>
         <briefdescription>
-<para>Aplica el movimiento físico al objeto en intervalos fijos. </para>
+<para>Aplica el movimiento real al objeto utilizando el Rigidbody2D. Se llama en intervalos fijos, ideal para manejo físico. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/Movimiento.cs" line="46" column="17" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/Movimiento.cs" bodystart="46" bodyend="49"/>
+        <location file="Assets/Scripts/Movimiento.cs" line="86" column="17" bodyfile="Assets/Scripts/Movimiento.cs" bodystart="86" bodyend="89"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Controla el movimiento del objeto 2D usando entrada del jugador y Rigidbody2D. </para>
+<para>Controla el movimiento de un objeto 2D utilizando entrada del jugador tanto por teclado como por joystick, y aplicando movimiento mediante Rigidbody2D. También actualiza parámetros del Animator para controlar animaciones. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -124,10 +156,12 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/Movimiento.cs" line="10" column="7" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/Movimiento.cs" bodystart="11" bodyend="50"/>
+    <location file="Assets/Scripts/Movimiento.cs" line="8" column="7" bodyfile="Assets/Scripts/Movimiento.cs" bodystart="9" bodyend="90"/>
     <listofallmembers>
+      <member refid="class_movimiento_1aea5d604a554d303f905742634b1885cc" prot="private" virt="non-virtual"><scope>Movimiento</scope><name>anim</name></member>
       <member refid="class_movimiento_1afb164b58e71f7e20fbb2b9e62d4e87ab" prot="private" virt="non-virtual"><scope>Movimiento</scope><name>direccion</name></member>
       <member refid="class_movimiento_1a89d53de9b480fc40e3cdbbf9cfa4058f" prot="public" virt="non-virtual"><scope>Movimiento</scope><name>FixedUpdate</name></member>
+      <member refid="class_movimiento_1aabf1bb56af47e345575d46ac941abd8f" prot="public" virt="non-virtual"><scope>Movimiento</scope><name>joystick</name></member>
       <member refid="class_movimiento_1a12f411e228ea6de772007fec111e9017" prot="private" virt="non-virtual"><scope>Movimiento</scope><name>rb</name></member>
       <member refid="class_movimiento_1af1ad95186a7cbda554d5be3e6e09be24" prot="public" virt="non-virtual"><scope>Movimiento</scope><name>Start</name></member>
       <member refid="class_movimiento_1acd4de10c1b7c3367c1ba6cf457d159c7" prot="public" virt="non-virtual"><scope>Movimiento</scope><name>Update</name></member>

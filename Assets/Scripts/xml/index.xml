@@ -1,12 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.14.0" xml:lang="es">
-  <compound refid="class_activities_manager" kind="class"><name>ActivitiesManager</name>
-  </compound>
-  <compound refid="class_apagar_panel" kind="class"><name>ApagarPanel</name>
-    <member refid="class_apagar_panel_1a249dd710a80e5d0d3a646dfaeca107a1" kind="variable"><name>delay</name></member>
-    <member refid="class_apagar_panel_1afc2d07e602911f94b6e901a37e2bd1e9" kind="function"><name>OnEnable</name></member>
-    <member refid="class_apagar_panel_1aa99dbc136ccba310a8a4d062dfe69a18" kind="function"><name>HidePanel</name></member>
-  </compound>
   <compound refid="class_cambiode_escenas" kind="class"><name>CambiodeEscenas</name>
     <member refid="class_cambiode_escenas_1a93b4e5d33a141acf5ba3ea259ddb3bb4" kind="function"><name>Start</name></member>
     <member refid="class_cambiode_escenas_1a491bb1b227072949869dbbe51877e97c" kind="function"><name>Intro</name></member>
@@ -19,6 +12,8 @@
     <member refid="class_movimiento_1a492a65aa7588b8ae9c2aa1224fa9abdd" kind="variable"><name>velocidadMov</name></member>
     <member refid="class_movimiento_1afb164b58e71f7e20fbb2b9e62d4e87ab" kind="variable"><name>direccion</name></member>
     <member refid="class_movimiento_1a12f411e228ea6de772007fec111e9017" kind="variable"><name>rb</name></member>
+    <member refid="class_movimiento_1aea5d604a554d303f905742634b1885cc" kind="variable"><name>anim</name></member>
+    <member refid="class_movimiento_1aabf1bb56af47e345575d46ac941abd8f" kind="variable"><name>joystick</name></member>
     <member refid="class_movimiento_1af1ad95186a7cbda554d5be3e6e09be24" kind="function"><name>Start</name></member>
     <member refid="class_movimiento_1acd4de10c1b7c3367c1ba6cf457d159c7" kind="function"><name>Update</name></member>
     <member refid="class_movimiento_1a89d53de9b480fc40e3cdbbf9cfa4058f" kind="function"><name>FixedUpdate</name></member>
@@ -32,10 +27,12 @@
     <member refid="class_n_p_c_1a98f42b71a2ead624d897ee41c5d67cfb" kind="variable"><name>panelvyf</name></member>
     <member refid="class_n_p_c_1ab1a037a822a5046016b1429d6e7f5c92" kind="variable"><name>panelseleccion</name></member>
     <member refid="class_n_p_c_1aa33f00d5202abeb0689902e2496c733e" kind="variable"><name>panelcompletar</name></member>
+    <member refid="class_n_p_c_1aa0b02f349102a62d35bee0e4ad521ab5" kind="variable"><name>MainPanel</name></member>
+    <member refid="class_n_p_c_1ac1cbb94d41aa6fe1431d6aff62ce1fc3" kind="variable"><name>joystick</name></member>
     <member refid="class_n_p_c_1a540388d0a7a6328dcba6b691d219a969" kind="variable"><name>activado</name></member>
     <member refid="class_n_p_c_1a5b79779c1e3f3f2d05d85febd390cfac" kind="variable"><name>jugador</name></member>
     <member refid="class_n_p_c_1a6e0beba82b5fe7c2b22a8edb2511e82d" kind="function"><name>OnTriggerEnter2D</name></member>
-    <member refid="class_n_p_c_1a375667ed04cbbc8dc51e4baf9b65eebc" kind="function"><name>CerrarPanel</name></member>
+    <member refid="class_n_p_c_1ab81f7f4c5ac8e6d61e534f7c9f85aeea" kind="function"><name>ActivarMovimiento</name></member>
   </compound>
   <compound refid="class_salida" kind="class"><name>Salida</name>
     <member refid="class_salida_1a5d6915bd98b6f83668416ee439173584" kind="function"><name>Update</name></member>
@@ -52,24 +49,30 @@
     <member refid="class_scenes_manager_1a037c35fa0e35bb11cbc9107633075161" kind="function"><name>EscenaBosque</name></member>
     <member refid="class_scenes_manager_1a5480d449eccda5b90cf31622e5251dbb" kind="function"><name>EscenaCuidad</name></member>
     <member refid="class_scenes_manager_1acb3180a8d5596c36316c75a00b7b2ec8" kind="function"><name>EscenaCastillo</name></member>
+    <member refid="class_scenes_manager_1a0d31f1932bd06743935cf37c65d7407d" kind="function"><name>MainMenu</name></member>
+  </compound>
+  <compound refid="class_texto_actividad_individual" kind="class"><name>TextoActividadIndividual</name>
+    <member refid="class_texto_actividad_individual_1a1021bc030af7de6f832a59442e1127a0" kind="variable"><name>textoUI</name></member>
+    <member refid="class_texto_actividad_individual_1ab6de7d1395c3d2fe04575c209e90ba4a" kind="variable"><name>numeroActividad</name></member>
+    <member refid="class_texto_actividad_individual_1ab5166f98f0318d156029f1fcf35542e0" kind="variable"><name>indiceCampo</name></member>
+    <member refid="class_texto_actividad_individual_1a4c1a1b36e3250ccc4c5df186939dca31" kind="variable"><name>nombreArchivo</name></member>
+    <member refid="class_texto_actividad_individual_1a7dc2f110cd7696ea009cbb02f0746298" kind="variable"><name>delimitador</name></member>
+    <member refid="class_texto_actividad_individual_1af1edffa22e1bd083a07de2f46134341f" kind="function"><name>Awake</name></member>
+    <member refid="class_texto_actividad_individual_1a9cce28e45aabb5b66b78c2272f8dbdb8" kind="function"><name>CargarTexto</name></member>
   </compound>
   <compound refid="namespace_system_1_1_collections" kind="namespace"><name>System::Collections</name>
   </compound>
-  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
   </compound>
   <compound refid="namespace_t_m_pro" kind="namespace"><name>TMPro</name>
-  </compound>
-  <compound refid="namespace_unity_1_1_visual_scripting" kind="namespace"><name>Unity::VisualScripting</name>
   </compound>
   <compound refid="namespace_unity_engine" kind="namespace"><name>UnityEngine</name>
   </compound>
   <compound refid="namespace_unity_engine_1_1_scene_management" kind="namespace"><name>UnityEngine::SceneManagement</name>
   </compound>
-  <compound refid="namespace_unity_engine_1_1_u_i_elements" kind="namespace"><name>UnityEngine::UIElements</name>
+  <compound refid="namespace_unity_engine_1_1_u_i" kind="namespace"><name>UnityEngine::UI</name>
   </compound>
   <compound refid="_activities_manager_8cs" kind="file"><name>ActivitiesManager.cs</name>
-  </compound>
-  <compound refid="_apagar_panel_8cs" kind="file"><name>ApagarPanel.cs</name>
   </compound>
   <compound refid="_cambio_intro_8cs" kind="file"><name>CambioIntro.cs</name>
   </compound>
@@ -79,16 +82,14 @@
   </compound>
   <compound refid="_n_p_c_8cs" kind="file"><name>NPC.cs</name>
   </compound>
+  <compound refid="_readme_8md" kind="file"><name>Readme.md</name>
+  </compound>
   <compound refid="_salida_8cs" kind="file"><name>Salida.cs</name>
   </compound>
   <compound refid="_scenes_manager_8cs" kind="file"><name>ScenesManager.cs</name>
   </compound>
-  <compound refid="dir_5e1000a5f41e471ac7be7ae72facc821" kind="dir"><name>Caps Quest Remake/Caps-Quest/Assets</name>
+  <compound refid="dir_84bbf7b3c7f28a5a18725745e1505219" kind="dir"><name>Assets</name>
   </compound>
-  <compound refid="dir_864bdf380967bd0081ca431ba1de6962" kind="dir"><name>Caps Quest Remake</name>
-  </compound>
-  <compound refid="dir_69afaf6f0f3bd8f7579bb8d64ae1638d" kind="dir"><name>Caps Quest Remake/Caps-Quest</name>
-  </compound>
-  <compound refid="dir_f36bbd1500de7a063dfb7d30cf46cad5" kind="dir"><name>Caps Quest Remake/Caps-Quest/Assets/Scripts</name>
+  <compound refid="dir_f13b41af88cf68434578284aaf699e39" kind="dir"><name>Assets/Scripts</name>
   </compound>
 </doxygenindex>

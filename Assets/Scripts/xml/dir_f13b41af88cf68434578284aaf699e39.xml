@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="es">
+  <compounddef id="dir_f13b41af88cf68434578284aaf699e39" kind="dir">
+    <compoundname>Assets/Scripts</compoundname>
+    <innerfile refid="_activities_manager_8cs">ActivitiesManager.cs</innerfile>
+    <innerfile refid="_cambio_intro_8cs">CambioIntro.cs</innerfile>
+    <innerfile refid="_cambio_outro_8cs">CambioOutro.cs</innerfile>
+    <innerfile refid="_movimiento_8cs">Movimiento.cs</innerfile>
+    <innerfile refid="_n_p_c_8cs">NPC.cs</innerfile>
+    <innerfile refid="_salida_8cs">Salida.cs</innerfile>
+    <innerfile refid="_scenes_manager_8cs">ScenesManager.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<sect1 id="C:/Users/Postekusa/Caps Quest Remake/Assets/Scripts/Readme.md_1autotoc_md0">
+<title>Caps Quest</title></sect1>
+<sect1 id="C:/Users/Postekusa/Caps Quest Remake/Assets/Scripts/Readme.md_1autotoc_md1">
+<title>Grupo Gama Alta</title><para>Caps Quest es un juego educativo diseñado para ayudar a estudiantes de cuarto grado a aprender el uso correcto de las letras mayúsculas en nombres propios (antropónimos) a través de ejercicios interactivos y divertidos.</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="C:/Users/Postekusa/Caps Quest Remake/Assets/Scripts/Readme.md_1autotoc_md3">
+<title>Descripción del Proyecto</title><para>Caps Quest presenta una aventura en la que un malvado mago ha lanzado un hechizo sobre el reino, haciendo que sus habitantes olviden las reglas gramaticales para el uso de las mayúsculas. El jugador debe completar diferentes tipos de ejercicios para romper el hechizo y restaurar el conocimiento.</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="C:/Users/Postekusa/Caps Quest Remake/Assets/Scripts/Readme.md_1autotoc_md5">
+<title>Características Principales</title><para><itemizedlist>
+<listitem><para>Tres tipos de ejercicios: Verdadero y Falso, Selección Múltiple y Completar.</para>
+</listitem><listitem><para>Interacción con NPCs que activan paneles de ejercicios al colisionar.</para>
+</listitem><listitem><para>Control de movimiento 2D con joystick virtual o teclado.</para>
+</listitem><listitem><para>Sistema para mostrar texto de actividades dinámicamente desde archivos.</para>
+</listitem><listitem><para>Control de animaciones basado en el movimiento del jugador.</para>
+</listitem><listitem><para>Interfaz que oculta y muestra paneles según la actividad en curso.</para>
+</listitem></itemizedlist>
+</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="C:/Users/Postekusa/Caps Quest Remake/Assets/Scripts/Readme.md_1autotoc_md7">
+<title>Estructura de Scripts</title><sect2 id="C:/Users/Postekusa/Caps Quest Remake/Assets/Scripts/Readme.md_1autotoc_md8">
+<title>NPC.cs</title><para>Controla la interacción con NPCs que activan los paneles de ejercicios y deshabilita el movimiento del jugador mientras se realiza una actividad.</para>
+</sect2>
+<sect2 id="C:/Users/Postekusa/Caps Quest Remake/Assets/Scripts/Readme.md_1autotoc_md9">
+<title>TextoActividadIndividual.cs</title><para>Carga y muestra el texto de las actividades desde archivos de texto ubicados en la carpeta Resources.</para>
+</sect2>
+<sect2 id="C:/Users/Postekusa/Caps Quest Remake/Assets/Scripts/Readme.md_1autotoc_md10">
+<title>Movimiento.cs</title><para>Gestiona el movimiento del personaje usando Rigidbody2D y entradas del joystick o teclado, además de controlar las animaciones.</para>
+</sect2>
+<sect2 id="C:/Users/Postekusa/Caps Quest Remake/Assets/Scripts/Readme.md_1autotoc_md11">
+<title>CambioIntro.cs</title><para>Se encarga de hacer el cambio de escena cronometrado despues que se muestra el logo de los desarrolladores.</para>
+</sect2>
+<sect2 id="C:/Users/Postekusa/Caps Quest Remake/Assets/Scripts/Readme.md_1autotoc_md12">
+<title>CambioOutro.cs</title><para>Igual que el anterior este se encarga de hacer el cambio de escena en la escena final del juego para que vuelva a empezar al Menu Principal.</para>
+</sect2>
+<sect2 id="C:/Users/Postekusa/Caps Quest Remake/Assets/Scripts/Readme.md_1autotoc_md13">
+<title>Salida.cs</title><para>Un script basico que permite salir de la ejecucion del juego presionando ESC en PC o el boton Atras en Android.</para>
+</sect2>
+<sect2 id="C:/Users/Postekusa/Caps Quest Remake/Assets/Scripts/Readme.md_1autotoc_md14">
+<title>SceneManager.cs</title><para>Esta clase se encarga de manejar los cambios de escenas que ocurre durante todo el trancurso del juego.</para>
+<para><hruler/>
+</para>
+</sect2>
+</sect1>
+<sect1 id="C:/Users/Postekusa/Caps Quest Remake/Assets/Scripts/Readme.md_1autotoc_md16">
+<title>Requisitos</title><para><itemizedlist>
+<listitem><para>Unity (versión compatible con tu proyecto)</para>
+</listitem><listitem><para>Paquete de joystick virtual de Fenerax Studios (o equivalente)</para>
+</listitem><listitem><para>Carpeta <computeroutput>Resources</computeroutput> con los archivos de texto para las actividades</para>
+</listitem><listitem><para>Paquete Cinemachine de la Assets Store de Unity</para>
+</listitem></itemizedlist>
+</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="C:/Users/Postekusa/Caps Quest Remake/Assets/Scripts/Readme.md_1autotoc_md18">
+<title>Instrucciones para Ejecutar</title><para><orderedlist>
+<listitem><para>Abre el proyecto en Unity.</para>
+</listitem><listitem><para>Asegúrate de que los scripts estén asignados a los GameObjects correspondientes.</para>
+</listitem><listitem><para>Configura los paneles de ejercicios en los NPCs.</para>
+</listitem><listitem><para>Ejecuta la escena principal y prueba los movimientos y ejercicios.</para>
+</listitem><listitem><para>Usa el joystick o teclado para moverte y colisiona con los NPCs para activar los ejercicios.</para>
+</listitem></orderedlist>
+</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="C:/Users/Postekusa/Caps Quest Remake/Assets/Scripts/Readme.md_1autotoc_md20">
+<title>Autores</title><para><itemizedlist>
+<listitem><para>Grupo Gama Alta</para>
+</listitem></itemizedlist>
+</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="C:/Users/Postekusa/Caps Quest Remake/Assets/Scripts/Readme.md_1autotoc_md22">
+<title>Contacto</title><para>Para soporte o sugerencias, contactar con el equipo de desarrollo del Grupo Gama Alta. Correo: <ulink url="mailto:jaron.aviles@gmail.com">jaron.aviles@gmail.com</ulink> </para>
+</sect1>
+    </detaileddescription>
+    <location file="Assets/Scripts/"/>
+  </compounddef>
+</doxygen>

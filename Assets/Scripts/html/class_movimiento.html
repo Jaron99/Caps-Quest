@@ -24,7 +24,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="Caps-Quest (1).png"/></td>
   <td id="projectalign">
-   <div id="projectname">Caps Quest<span id="projectnumber">&#160;0.1</span>
+   <div id="projectname">Caps Quest<span id="projectnumber">&#160;1.0</span>
    </div>
   </td>
  </tr>
@@ -74,12 +74,13 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pub-attribs">Atributos públicos</a> &#124;
 <a href="class_movimiento-members.html">Lista de todos los miembros</a>  </div>
   <div class="headertitle"><div class="title">Referencia de la clase Movimiento</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>Controla el movimiento del objeto 2D usando entrada del jugador y Rigidbody2D.  
+<p>Controla el movimiento de un objeto 2D utilizando entrada del jugador tanto por teclado como por joystick, y aplicando movimiento mediante Rigidbody2D. También actualiza parámetros del Animator para controlar animaciones.  
  <a href="#details">Más...</a></p>
 <div class="dynheader">
 Diagrama de herencia de Movimiento</div>
@@ -91,16 +92,21 @@ Diagrama de herencia de Movimiento</div>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Métodos públicos</h2></td></tr>
 <tr class="memitem:af1ad95186a7cbda554d5be3e6e09be24" id="r_af1ad95186a7cbda554d5be3e6e09be24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1ad95186a7cbda554d5be3e6e09be24">Start</a> ()</td></tr>
-<tr class="memdesc:af1ad95186a7cbda554d5be3e6e09be24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inicializa el componente Rigidbody2D.  <br /></td></tr>
+<tr class="memdesc:af1ad95186a7cbda554d5be3e6e09be24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inicializa las referencias al Rigidbody2D y al Animator del objeto. Verifica también que el joystick haya sido asignado correctamente.  <br /></td></tr>
 <tr class="memitem:acd4de10c1b7c3367c1ba6cf457d159c7" id="r_acd4de10c1b7c3367c1ba6cf457d159c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd4de10c1b7c3367c1ba6cf457d159c7">Update</a> ()</td></tr>
-<tr class="memdesc:acd4de10c1b7c3367c1ba6cf457d159c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Actualiza la dirección del movimiento según la entrada del usuario cada frame.  <br /></td></tr>
+<tr class="memdesc:acd4de10c1b7c3367c1ba6cf457d159c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lee la entrada del jugador (teclado o joystick) y calcula la dirección del movimiento. Actualiza también los parámetros del Animator para reflejar la animación correspondiente.  <br /></td></tr>
 <tr class="memitem:a89d53de9b480fc40e3cdbbf9cfa4058f" id="r_a89d53de9b480fc40e3cdbbf9cfa4058f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89d53de9b480fc40e3cdbbf9cfa4058f">FixedUpdate</a> ()</td></tr>
-<tr class="memdesc:a89d53de9b480fc40e3cdbbf9cfa4058f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Aplica el movimiento físico al objeto en intervalos fijos.  <br /></td></tr>
+<tr class="memdesc:a89d53de9b480fc40e3cdbbf9cfa4058f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Aplica el movimiento real al objeto utilizando el Rigidbody2D. Se llama en intervalos fijos, ideal para manejo físico.  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Atributos públicos</h2></td></tr>
+<tr class="memitem:aabf1bb56af47e345575d46ac941abd8f" id="r_aabf1bb56af47e345575d46ac941abd8f"><td class="memItemLeft" align="right" valign="top">Joystick&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aabf1bb56af47e345575d46ac941abd8f">joystick</a></td></tr>
+<tr class="memdesc:aabf1bb56af47e345575d46ac941abd8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Referencia al joystick utilizado para controlar el movimiento (opcional). Puede ser FixedJoystick, FloatingJoystick o Joystick según el tipo usado.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Descripción detallada</h2>
-<div class="textblock"><p>Controla el movimiento del objeto 2D usando entrada del jugador y Rigidbody2D. </p>
+<div class="textblock"><p>Controla el movimiento de un objeto 2D utilizando entrada del jugador tanto por teclado como por joystick, y aplicando movimiento mediante Rigidbody2D. También actualiza parámetros del Animator para controlar animaciones. </p>
 
-<p class="definition">Definición en la línea <a class="el" href="_movimiento_8cs_source.html#l00010">10</a> del archivo <a class="el" href="_movimiento_8cs_source.html">Movimiento.cs</a>.</p>
+<p class="definition">Definición en la línea <a class="el" href="_movimiento_8cs_source.html#l00008">8</a> del archivo <a class="el" href="_movimiento_8cs_source.html">Movimiento.cs</a>.</p>
 </div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Documentación de funciones miembro</h2>
 <a id="a89d53de9b480fc40e3cdbbf9cfa4058f" name="a89d53de9b480fc40e3cdbbf9cfa4058f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a89d53de9b480fc40e3cdbbf9cfa4058f">&#9670;&#160;</a></span>FixedUpdate()</h2>
@@ -117,9 +123,9 @@ Métodos públicos</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Aplica el movimiento físico al objeto en intervalos fijos. </p>
+<p>Aplica el movimiento real al objeto utilizando el Rigidbody2D. Se llama en intervalos fijos, ideal para manejo físico. </p>
 
-<p class="definition">Definición en la línea <a class="el" href="_movimiento_8cs_source.html#l00046">46</a> del archivo <a class="el" href="_movimiento_8cs_source.html">Movimiento.cs</a>.</p>
+<p class="definition">Definición en la línea <a class="el" href="_movimiento_8cs_source.html#l00086">86</a> del archivo <a class="el" href="_movimiento_8cs_source.html">Movimiento.cs</a>.</p>
 
 </div>
 </div>
@@ -138,9 +144,9 @@ Métodos públicos</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Inicializa el componente Rigidbody2D. </p>
+<p>Inicializa las referencias al Rigidbody2D y al Animator del objeto. Verifica también que el joystick haya sido asignado correctamente. </p>
 
-<p class="definition">Definición en la línea <a class="el" href="_movimiento_8cs_source.html#l00030">30</a> del archivo <a class="el" href="_movimiento_8cs_source.html">Movimiento.cs</a>.</p>
+<p class="definition">Definición en la línea <a class="el" href="_movimiento_8cs_source.html#l00040">40</a> del archivo <a class="el" href="_movimiento_8cs_source.html">Movimiento.cs</a>.</p>
 
 </div>
 </div>
@@ -159,14 +165,33 @@ Métodos públicos</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Actualiza la dirección del movimiento según la entrada del usuario cada frame. </p>
+<p>Lee la entrada del jugador (teclado o joystick) y calcula la dirección del movimiento. Actualiza también los parámetros del Animator para reflejar la animación correspondiente. </p>
 
-<p class="definition">Definición en la línea <a class="el" href="_movimiento_8cs_source.html#l00038">38</a> del archivo <a class="el" href="_movimiento_8cs_source.html">Movimiento.cs</a>.</p>
+<p class="definition">Definición en la línea <a class="el" href="_movimiento_8cs_source.html#l00056">56</a> del archivo <a class="el" href="_movimiento_8cs_source.html">Movimiento.cs</a>.</p>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Documentación de datos miembro</h2>
+<a id="aabf1bb56af47e345575d46ac941abd8f" name="aabf1bb56af47e345575d46ac941abd8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aabf1bb56af47e345575d46ac941abd8f">&#9670;&#160;</a></span>joystick</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Joystick Movimiento.joystick</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Referencia al joystick utilizado para controlar el movimiento (opcional). Puede ser FixedJoystick, FloatingJoystick o Joystick según el tipo usado. </p>
+
+<p class="definition">Definición en la línea <a class="el" href="_movimiento_8cs_source.html#l00034">34</a> del archivo <a class="el" href="_movimiento_8cs_source.html">Movimiento.cs</a>.</p>
 
 </div>
 </div>
 <hr/>La documentación de esta clase está generada del siguiente archivo:<ul>
-<li>Caps Quest Remake/Caps-Quest/Assets/Scripts/<a class="el" href="_movimiento_8cs_source.html">Movimiento.cs</a></li>
+<li>Assets/Scripts/<a class="el" href="_movimiento_8cs_source.html">Movimiento.cs</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

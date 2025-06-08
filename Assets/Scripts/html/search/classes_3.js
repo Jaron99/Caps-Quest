@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['npc_0',['NPC',['../class_n_p_c.html',1,'']]]
+  ['salida_0',['Salida',['../class_salida.html',1,'']]],
+  ['scenesmanager_1',['ScenesManager',['../class_scenes_manager.html',1,'']]]
 ];

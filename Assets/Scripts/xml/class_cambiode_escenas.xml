@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/CambioIntro.cs" line="14" column="10" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/CambioIntro.cs" bodystart="14" bodyend="17"/>
+        <location file="Assets/Scripts/CambioIntro.cs" line="14" column="10" bodyfile="Assets/Scripts/CambioIntro.cs" bodystart="14" bodyend="17"/>
       </memberdef>
       <memberdef kind="function" id="class_cambiode_escenas_1a491bb1b227072949869dbbe51877e97c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>IEnumerator</type>
@@ -35,7 +35,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/CambioIntro.cs" line="23" column="17" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/CambioIntro.cs" bodystart="23" bodyend="27"/>
+        <location file="Assets/Scripts/CambioIntro.cs" line="23" column="17" bodyfile="Assets/Scripts/CambioIntro.cs" bodystart="23" bodyend="27"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -65,7 +65,7 @@
         <label>MonoBehaviour</label>
       </node>
     </collaborationgraph>
-    <location file="Caps Quest Remake/Caps-Quest/Assets/Scripts/CambioIntro.cs" line="8" column="7" bodyfile="Caps Quest Remake/Caps-Quest/Assets/Scripts/CambioIntro.cs" bodystart="9" bodyend="28"/>
+    <location file="Assets/Scripts/CambioIntro.cs" line="8" column="7" bodyfile="Assets/Scripts/CambioIntro.cs" bodystart="9" bodyend="28"/>
     <listofallmembers>
       <member refid="class_cambiode_escenas_1a491bb1b227072949869dbbe51877e97c" prot="private" virt="non-virtual"><scope>CambiodeEscenas</scope><name>Intro</name></member>
       <member refid="class_cambiode_escenas_1a93b4e5d33a141acf5ba3ea259ddb3bb4" prot="private" virt="non-virtual"><scope>CambiodeEscenas</scope><name>Start</name></member>

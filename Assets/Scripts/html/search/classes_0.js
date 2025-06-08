@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['activitiesmanager_0',['ActivitiesManager',['../class_activities_manager.html',1,'']]],
-  ['apagarpanel_1',['ApagarPanel',['../class_apagar_panel.html',1,'']]]
+  ['cambiodeescenas_0',['CambiodeEscenas',['../class_cambiode_escenas.html',1,'']]],
+  ['cambiooutro_1',['CambioOutro',['../class_cambio_outro.html',1,'']]]
 ];
